@@ -8,7 +8,7 @@
 /*generics*/
 body *{
     font-family: "Rubik Mono One", sans-serif;
-    border: 2px dashed blue;
+    
 }
 
 img{
@@ -16,10 +16,15 @@ img{
     display: block;
 }
 
+ul{
+    list-style-type: none;
+    align-content: center;
+    gap: 25px;
+}
+
 /*utilities-position*/
 .full-page{
     height: 100vh;
-    line-height: 100%;
     position: relative;
     
 }
@@ -32,6 +37,9 @@ img{
     transform: translate(-50%, -50%);
 }
 
+.flex{
+    display: flex;
+}
 /*utilities-colors*/
 .bg-red{
     background-color: red;
@@ -58,7 +66,38 @@ img{
 .card-bottom h1{
     text-align: center;
     vertical-align: middle;
+    font-size: 26px;
     
+}
+
+/*side-bar*/
+.side-bar{
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    right: 15px;
+  
+}
+
+.side-bar li{
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    
+    
+
+}
+
+.side-bar a{
+    display: block;
+    font-size:15px;
+    line-height: 40px;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
 }
 
 
