@@ -57,6 +57,9 @@ ul{
     color:yellow
 }
 
+.clr-green{
+    color: green;
+}
 /*card*/
 .card-bottom{
     min-height: 30px;
