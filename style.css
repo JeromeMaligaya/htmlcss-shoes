@@ -1,0 +1,64 @@
+/*css-reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*generics*/
+body *{
+    font-family: "Rubik Mono One", sans-serif;
+    border: 2px dashed blue;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/*utilities-position*/
+.full-page{
+    height: 100vh;
+    line-height: 100%;
+    position: relative;
+    
+}
+.container{
+    max-width:500px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+/*utilities-colors*/
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.clr-yellow{
+    color:yellow
+}
+
+/*card*/
+.card-bottom{
+    min-height: 30px;
+    line-height: 30px;
+}
+
+.card-bottom h1{
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+
